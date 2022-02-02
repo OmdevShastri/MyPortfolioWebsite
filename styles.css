@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: blue;
+    width: 20vw;
+}
+
+.main{
+    background-color: burlywood;
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
