@@ -14,3 +14,8 @@
 .container{
     display: flex;
 }
+
+body{
+    background-color: rgb(43, 33, 33); 
+    color: aliceblue ;
+}
