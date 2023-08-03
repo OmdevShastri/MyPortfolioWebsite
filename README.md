@@ -1,2 +1,2 @@
 # MyPortfolioWebsite
-all files for that make up my own website
+all the files for that which make up my own portfolio website

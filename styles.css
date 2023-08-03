@@ -1,21 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.sidebar{
+
+.sidebar {
     background-color: rgb(0, 183, 255);
     width: 20vw;
 }
 
-.main{
-    background-color: burlywood;
+.main {
+    background-color: rgb(255, 245, 231);
     width: 80vw;
 }
-.container{
+
+.container {
     display: flex;
 }
 
-body{
-    background-color: rgb(43, 33, 33); 
-    color: aliceblue ;
+body {
+
+    background-color: rgb(43, 33, 33);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 30px;
 }
