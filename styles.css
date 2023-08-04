@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .sidebar {
@@ -22,20 +23,51 @@ body {
     background-color: rgb(43, 33, 33);
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+
 
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30px;
+    height: 70px;
     background-color: black;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin: 0 30px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstSection > div {
+    width: 30%;
+    
+}
+
+.leftSection {
+    /* background-color: blueviolet; */
+    
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 100%;
+    margin: 50px 0;
 }
