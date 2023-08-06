@@ -11,7 +11,9 @@
   <title>
     || Developer || Engineer || Fresher || Google Cloud ||
   </title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="Gstyles.css" />
+  <link rel="stylesheet" href="Sstyles.css" />
+  <link rel="stylesheet" href="Ustyles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -43,11 +45,11 @@
       <div class="left">Omdev's Portfolio </div>
       <div class="right">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Contact me</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact me</a></li>
         </ul>
       </div>
     </nav>
@@ -56,13 +58,27 @@
   <main>
     <section class="firstSection">
       <div class="leftSection">
-        Hi, This is Omdev Shastri and I'm a Java Developer!
+        Hi, This is <span class="NColor">Omdev Shastri</span>
+        <div>and I'm a Technology</div>
+        <div>Enthusiast</div>
+        <!-- Element to contain animated typing -->
+        <span id="element"></span>
       </div>
+      
       <div class="rightSection">
-        <img src="lBg.png" alt="">
+        <img src="wBg.jpg" alt="">
       </div>
     </section>
   </main>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Java Developer', 'Cloud'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 
 </html>
