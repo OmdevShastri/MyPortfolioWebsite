@@ -1,0 +1,7 @@
+ # Ignore everything
+ *
+ 
+ # Except.html,.css, and.js files
+!*.html
+!*.css
+!*.js
