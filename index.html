@@ -5,56 +5,30 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>
-    Omdev Shastri
-  </title>
-  <title>
-    || Developer || Engineer || Fresher || Google Cloud ||
-  </title>
-  <link rel="stylesheet" href="Gstyles.css" />
-  <link rel="stylesheet" href="Sstyles.css" />
-  <link rel="stylesheet" href="Ustyles.css" />
+  <title>Omdev Shastri - Developer & Engineer</title>
+  <link rel="stylesheet" href="resources/css/Gstyles.css" />
+  <link rel="stylesheet" href="resources/css/Sstyles.css" />
+  <link rel="stylesheet" href="resources/css/Ustyles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Code+Pro:wght@400;600;800&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Code+Pro:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- <div class="left">
-    <div class="right">
-      Omdev
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Introduction</li>
-          <li>Services</li>
-          <li>CV</li>
-          <li>Blog</li>
-        </ul>
-      </nav>
-    </div>
-    <div class="main">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et incidunt ipsa nostrum quasi ducimus quia, doloribus
-      voluptates nam minima ullam, maiores obcaecati accusamus necessitatibus optio, ab eaque eveniet autem blanditiis.
-    </div>
-  </div> -->
   <header>
     <nav>
       <div class="left">
         <h1>
-          <a href="/https//:omdevshastri.com/#top" >Omdev Shastri </a>
+          <a href="/" target="_blank" rel="noopener noreferrer">Omdev Shastri</a>
         </h1>
       </div>
       <div class="right">
         <ul>
-          <!--<li><a href="/">Home</a></li> -->
-          <li><a class="button-big" href="https//:omdevshastri.com/#about-me">About me</a></li>
-          <li><a class="button-big" href="https//:omdevshastri.com/#portfolio">Portfolio</a></li>
-          <li><a class="button-big" href="https//:omdevshastri.com/#Blog">Blog</a></li>
-          <li><a class="button-big" href="https//:omdevshastri.com/#contact-me">Contact me</a></li>
-          <li><a class="button-big" href="https//:omdevshastri.com/#cv">CV</a></li>
+          <li><a class="button-big" href="#about-me">About Me</a></li>
+          <li><a class="button-big" href="#portfolio">Portfolio</a></li>
+          <li><a class="button-big" href="#blog">Blog</a></li>
+          <li><a class="button-big" href="#contact-me">Contact Me</a></li>
+          <li><a class="button-big" href="#cv">CV</a></li>
         </ul>
       </div>
     </nav>
@@ -64,27 +38,30 @@
     <section class="firstSection">
       <div class="leftSection">
         Hi, This is <span class="NColor">Omdev Shastri</span>
-        <div>and I'm a Technology</div>
-        <div>Enthusiast</div>
+        <div>and I'm a Technology Enthusiast</div>
         <div>Currently into</div>
         <!-- Element to contain animated typing -->
         <span id="element"></span>
       </div>
       
       <div class="rightSection">
-        <img src="wBg.jpg" alt="">
+        <img src="resources/images/wBg.jpg" alt="Background Image">
       </div>
     </section>
   </main>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  
+  <<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-  <!-- Setup and start animation! -->
+  <!-- Setup and start animation -->
   <script>
     var typed = new Typed('#element', {
       strings: ['Java Developer', 'Cloud Computing', "Linux"],
       typeSpeed: 100,
+      loop: true, // Enable continuous looping
+      startDelay: false // Remove delay before the loop starts
     });
   </script>
+  
 </body>
 
 </html>
